@@ -27,6 +27,9 @@ font-family: 'Roboto', sans-serif;
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -47,6 +50,22 @@ body{
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
+}
+
+.announcement{
+    padding: 5%;
+    background-color: #ff545a;
+    color: white;
+    text-align: center;
+    /* font-size: larger; */
+}
+.announcement h1{
+    color: white;
+    font-size: 7rem;
+}
+.announcement h2{
+    font-size: 4.5rem;
+    color: white;
 }
 html{
     scroll-behavior: smooth;
