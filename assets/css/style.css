@@ -27,9 +27,6 @@ font-family: 'Roboto', sans-serif;
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
-
-
-
 *{
     padding: 0;
     margin: 0;
@@ -50,22 +47,6 @@ body{
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
-}
-
-.announcement{
-    padding: 5%;
-    background-color: #ff545a;
-    color: white;
-    text-align: center;
-    /* font-size: larger; */
-}
-.announcement h1{
-    color: white;
-    font-size: 3rem;
-}
-.announcement h2{
-    font-size: 1.4rem;
-    color: white;
 }
 html{
     scroll-behavior: smooth;
@@ -1016,6 +997,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 
 @media (max-width:500px) {
+ 
         .h{
         display: none;
         }
@@ -1076,6 +1058,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
        }
 
 
+
     
   
 
@@ -1084,5 +1067,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 
     .newh3{
         display: none;
+    }
+   .slide2{ margin-left: 20px;}
+}
+
+@media only screen and (max-width: 500px) and (min-width: 380px){
+    .slide2{
+        margin-top: 13px;
+       }
+    .slide{
+        width: 77%;
+    }
+    .slide2{
+        width: 77%;
     }
 }
