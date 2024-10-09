@@ -99,6 +99,10 @@ html,body{height: 100%;}
   opacity: 0;
 }
 
+a{
+	color:#fff;
+}
+
 /* section-header */
 .section-header{
     position: relative;
