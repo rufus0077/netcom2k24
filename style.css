@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body{
+    font-family: "League Spartan";
+    color: #020949;
+    background-color: rgba(255, 255, 255, 0.7);
+   
+}
+body::-webkit-scrollbar {
+    display: none;  /* Hides scrollbar for Chrome, Safari, and Edge */
+  }
+h1{
+    font-weight: 900;
+    color: black;
+}
+
+h2{
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+#brand-name{
+    color: #d3fd19;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.reg-visited a{
+    color: white;
+}
+.brand-visited a{
+    color: white;
+}
+.reg-btn{
+    border: none;
+    padding: 8px 26px;
+    background-color: #d3fd19;
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.reg1-btn{
+    border: none;
+    padding: 8px 26px;
+    background-color: #d3fd19;
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card{
+    background-color: black; 
+    color: #a1a1ab;
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
+.card h2, h3, h4{
+    font-weight: bold;
+}
+.card:hover{
+    box-shadow: rgb(255, 219, 88) 0px 15px 30px -10px; 
+}
+.heading{
+    color: #d3fd19;
+}
+nav{
+    background-color: brown;
+    color: black;
+}
+.topp-nav{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-hover{
+    border:3px solid rgb(255, 255, 255);
+}
+.navbar-nav a{
+    padding: 5px;
+    margin: 10px;
+    color: #d3fd19;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar-nav a:hover{
+    border: 3px solid #d3fd19;
+    color: white;
+}
+a.navbar-brand span{
+    display: inline-block;
+    text-transform:capitalize;
+}
+.navbar-brand{
+    color: #d3fd19
+}
+#home{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./assets/banner.jpg);
+    position: relative;
+    background-position:center;
+    background-size:cover;
+    color: white ;
+}
+.cover-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#head {
+    color: #fff;
+    animation: head 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes head {
+        from {
+            text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #d3fd19, 0 0 20px#d3fd19, 0 0 25px #d3fd19, 0 0 30px#d3fd19, 0 0 35px#d3fd19;
+        }
+
+        to {
+            text-shadow: 0 0 10px #000000, 0 0 15px #d3fd19, 0 0 20px #d3fd19, 0 0 25px#d3fd19, 0 0 30px #d3fd19, 0 0 35px #d3fd19, 0 0 40px#d3fd19;
+        }
+    }
+#spn{
+    color:#ffffff!important;
+}
+
+@media(min-width: 425px) and (max-width:768px) {
+    #head {
+        font-size: 50px; 
+        color: #fff;
+        animation: head 1s ease-in-out infinite alternate;
+        }
+    .cover-content h2{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 769px) {
+    #head {
+        font-size: 100px; 
+        color: #fff;
+        animation: head 1s ease-in-out infinite alternate;
+        }
+    .cover-content h2{
+        font-size: 60px;
+    }
+}
+#event-details {
+    padding: 25px;
+}
+#logo{
+    font-weight:600;
+}
+#rules{
+    padding: 20px;
+}
+
+#rules .card{
+    height: 100%;
+}
+#rules p{
+    font-size: 1.2rem;
+}
+.tech-evt .card{
+    height: 100%;
+}
+.register{
+    display: flex;
+    justify-content: center;
+}
+.register button{
+    font-size: 36px;
+}
